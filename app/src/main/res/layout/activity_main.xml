@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Property Type Section -->
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:layout_marginTop="50dp"
+        android:textAlignment="viewStart" />
+
+    <!-- Number of Rooms Section -->
+    <RadioGroup
+        android:id="@+id/radio_group_property_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_apartment"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableRight="@drawable/apartment"
+            android:text="@string/apartment" />
+
+        <RadioButton
+            android:id="@+id/radio_condo"
+            android:layout_width="134dp"
+            android:layout_height="75dp"
+            android:drawableRight="@drawable/condo"
+            android:text="@string/condo" />
+
+        <RadioButton
+            android:id="@+id/radio_land"
+            android:layout_width="127dp"
+            android:layout_height="match_parent"
+            android:drawableRight="@drawable/land"
+            android:text="@string/land" />
+
+    </RadioGroup>
+
+    <RadioButton
+        android:id="@+id/radio_boat_house"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:drawableRight="@drawable/boat"
+        android:text="@string/boat_house" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/number_of_rooms" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_number_of_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_1_to_3_rooms"
+            android:layout_width="223dp"
+            android:layout_height="match_parent"
+            android:drawableRight="@drawable/rooms"
+            android:text="@string/_1_to_3_rooms" />
+
+        <RadioButton
+            android:id="@+id/radio_no_rooms"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/noroom"
+            android:text="@string/no_rooms" />
+
+    </RadioGroup>
+
+    <!-- Other Facilities Section -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/other_facilities" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/checkbox_swimming_pool"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/swimming"
+            android:text="@string/swimming_pool" />
+
+        <CheckBox
+            android:id="@+id/checkbox_garden_area"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/garden"
+            android:text="@string/garden_area" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkbox_garage"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/garage"
+        android:text="@string/garage" />
+
+</LinearLayout>

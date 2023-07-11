@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Radius</string>
+    <string name="apartment">Apartment</string>
+    <string name="condo">Condo</string>
+    <string name="boat_house">Boat House</string>
+    <string name="land">Land</string>
+    <string name="number_of_rooms">Number of Rooms</string>
+    <string name="_1_to_3_rooms">1 to 3 Rooms</string>
+    <string name="no_rooms">No Rooms</string>
+    <string name="other_facilities">Other Facilities</string>
+    <string name="swimming_pool">Swimming Pool</string>
+    <string name="garden_area">Garden Area</string>
+    <string name="garage">Garage</string>
+</resources>
